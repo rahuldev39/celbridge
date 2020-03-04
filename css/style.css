@@ -1,0 +1,16 @@
+.login-bg{
+  background-image: url(./../images/login-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-secondary{
+  color: #14AE8E !important
+}
+.semi-bold{
+  font-weight: 500;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #13443A;
+    border-color: #13443A;
+}
