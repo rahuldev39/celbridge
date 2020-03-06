@@ -21,8 +21,10 @@
 </head>
 
 <body>
+  <div class="preload bg-secondary">
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  </div>
   <header class="header">
-
     <nav class="navbar navbar-expand-lg">
       <div class="container position-relative">
 
@@ -72,7 +74,7 @@
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Enter keywords here...">
                   <div class="input-group-append">
-                    <button type="button" class="btn btn-primary">Search</button>
+                    <button onclick="window.location='./search-list.html';" type="button" class="btn btn-primary">Search</button>
                   </div>
                 </div>
               </div>

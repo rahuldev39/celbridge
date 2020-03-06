@@ -26,3 +26,10 @@ $(function() {
 
 
 });
+
+
+//Spiner
+$(window).on('load', function() {
+  $('.lds-roller').fadeOut();
+  $('.preload').delay(350).fadeOut('slow');
+});
