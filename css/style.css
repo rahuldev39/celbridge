@@ -1,3 +1,9 @@
+.nav--has-sub-menu >.nav-sub-menu {
+    border-top: 5px solid #14AE8E !important;
+}
+.nav-sub-menu.dropdown-menu{
+  top: calc(100% - 20px)
+}
 .login-bg{
   background-image: url(./../images/login-bg.png);
   background-repeat: no-repeat;
