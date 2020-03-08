@@ -79,11 +79,6 @@
     border-radius: 2rem;
     color: #11443ac7;
 }
-
-.no-result-box{
-  max-width: 350px;
-  margin:0 auto;
-}
 .background--warning, .bg-warning {
     background-color: #fff6a8 !important;
 }
