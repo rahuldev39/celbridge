@@ -9,6 +9,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.main{
+  min-height: calc(100vh - 97px - 56px)
+}
 .text-secondary{
   color: #14AE8E !important
 }
@@ -66,8 +69,24 @@
   border: 1px solid #13443A;
   font-weight: 400;
 }
+.probability-conter {
+    right: 8px;
+    top: 11px;
+    background-color: #efeeee;
+    line-height: initial;
+    font-size: .8rem;
+    padding: .2rem .9rem;
+    border-radius: 2rem;
+    color: #11443ac7;
+}
 
-
+.no-result-box{
+  max-width: 350px;
+  margin:0 auto;
+}
+.background--warning, .bg-warning {
+    background-color: #fff6a8 !important;
+}
 .custom-radio label, .custom-checkbox label {
     line-height: 25px;
     position: relative;
@@ -204,4 +223,10 @@ a.text-primary:focus, a.text-primary:hover {
   .container{
     max-width: 100%
   }
+}
+@media (max-width: 1024px)
+{
+  .main {
+    min-height: calc(100vh - 60px - 50px);
+}
 }

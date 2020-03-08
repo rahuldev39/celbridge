@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css\vendor\bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+  <!-- Vendor/Plugins CSS -->
+  <link rel="stylesheet" href="css\vendor\fontawesome-all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css\main.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CellBridge | Search List</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="">
+</head>
+
+<body>
+  <div class="preload bg-secondary">
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  </div>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg position-static bg-white shadow-sm">
+      <div class="container position-relative">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="offcanvas">
+          <i class="navbar-toggler__bar navbar-toggler__bar--top"></i>
+          <i class="navbar-toggler__bar navbar-toggler__bar--middle"></i>
+          <i class="navbar-toggler__bar navbar-toggler__bar--bottom"></i>
+        </button> <!-- Navbar Toggle Button -->
+
+        <div class="offcanvas-collapse ml-auto" id="navbarsExampleDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item nav--has-sub-menu" data-toggle="hover">
+              <a class="nav-link" href="#" data-toggle="dropdown">
+              <img src="./images/man.svg" class="rounded-circle mr-3" width="25">Jhon Doe
+              </a>
+
+              <ul class="nav-sub-menu dropdown-menu rounded-lg shadow dropdown-menu-right">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Settings</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="./login.html" class="nav-link">Logout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav> <!-- END Navbar -->
+
+  </header>
+
+  <main class="main bg-light d-flex align-items-center justify-content-center">
+    <section class="section section-search-list  py-0 h-100">
+
+      <div class="container">
+
+        <div class="no-result-box text-center">
+          <div class="">
+            <div class="icon mb-3">
+                <img src="./images/no-result.svg" width="300" alt="">
+            </div>
+            <h3 class="text-primary font-weight-bold">No Reult Found</h3>
+
+            <p class="mb-4 font-weight-normal">We have search for <strong>"What is the role of PDCD6?"</strong> we did not find any match</p>
+
+            <button onClick="window.location='./search.html'" type="button" class="btn btn-primary btn-sm"><i class='lni lni-search-alt'></i> Search Again</button>
+          </div>
+        </div>
+
+      </div>
+    </section> <!-- END Section Main Feature -->
+  </main>
+
+
+  <footer class="footer  text-center bg-primary py-3">
+    <div class="container">
+      <div class="copyright">
+        <p class="mb-0 text-secondary">©2020 - Celbridge. All rights reserved.</p>
+      </div>
+    </div>
+  </footer> <!-- END Footer -->
+
+  <!-- Global Required JS -->
+  <script src="js\vendor\jquery-3.3.1.min.js"></script>
+  <script src="js\vendor\popper.min.js"></script>
+  <script src="js\vendor\bootstrap.min.js"></script>
+
+  <!-- JS -->
+  <script src="js\min\main-min.js"></script>
+
+
+
+</body>
+
+</html>
