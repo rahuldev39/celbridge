@@ -4,6 +4,10 @@
 .nav-sub-menu.dropdown-menu{
   top: calc(100% - 20px)
 }
+.nav-item.active .nav-link {
+    color: #15ae8d;
+}
+
 .login-bg{
   background-image: url(./../images/login-bg.png);
   background-repeat: no-repeat;
