@@ -228,6 +228,25 @@ a.text-primary:focus, a.text-primary:hover {
     font-size: .76rem;
     opacity: .8;
 }
+.about-img{
+  max-width: 400px;
+  border-radius: 10px;
+}
+.wwd-img{
+  border-radius: 10px;
+}
+.wwd-list li{
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 30px;
+}
+.wwd-list li i {
+    position: absolute;
+    left: 0px;
+    font-size: 1.2rem;
+    color: #15ae8d;
+    top: 5px;
+}
 @keyframes lds-roller {
   0% {
     transform: rotate(0deg);
