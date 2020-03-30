@@ -247,6 +247,10 @@ a.text-primary:focus, a.text-primary:hover {
     color: #15ae8d;
     top: 5px;
 }
+.pricing__wrapper {
+    max-width: 900px;
+    margin: 0 auto !important;
+}
 @keyframes lds-roller {
   0% {
     transform: rotate(0deg);
